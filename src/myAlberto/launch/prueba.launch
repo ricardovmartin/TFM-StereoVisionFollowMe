@@ -1,0 +1,12 @@
+<launch>
+  <arg name="namespace" default="zed2"/>
+
+  <group ns="$(arg namespace)">
+    <node  
+      pkg="myAlberto" 
+      type="prueba_node"
+      name="name_prueba"
+      output="screen">
+    </node>
+  </group>
+</launch>
