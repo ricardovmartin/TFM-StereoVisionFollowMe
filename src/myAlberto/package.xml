@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>myAlberto</name>
+  <version>0.0.0</version>
+  <description>The myAlberto package</description>
+
+  <maintainer email="manuel.castillo@uni.lu">manuel</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <test_depend>rosunit</test_depend>
+  <export>
+
+  </export>
+</package>
+
